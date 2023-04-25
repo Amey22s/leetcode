@@ -1,8 +1,6 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
 
-        # If nums[beg] > nums[mid] 
-
         beg = 0
         end = len(nums) - 1
 
