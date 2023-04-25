@@ -1,0 +1,12 @@
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        map = {}
+        idx = 0
+
+        for i in nums:
+            key = target - i
+            if key in map:
+                return (idx,map[key])
+            map[i] = idx
+            idx += 1
+        return (-1, -1)
