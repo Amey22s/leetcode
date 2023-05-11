@@ -1,3 +1,6 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.DS_Store
+Java solution/.DS_Store
+Python solutions/.DS_Store
